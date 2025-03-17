@@ -1,0 +1,49 @@
+<!--EXP-->
+<div class="container  mt-5" id="exp">
+  <div class="row justify-content-center">
+      <div class="col-md-4">
+              <h1>Experience</h1>
+      </div>
+      <hr>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4">
+          <div class="display-6">Education</div>
+          <ul>
+          <li>
+            <p><b>Dokuz Eylül University</b> <br> <a href="https://bergamamyo.deu.edu.tr/en/">Bergama Vocational School</a> <br> <em>Computer Technology (CT) Program</em></p>
+          </li>
+        </ul>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="display-6">Work</div>
+          <ul>
+          <li>
+            <p><b>Dokuz Eylül University</b> <br> Bergama Vocational School <br> <em>Computer Department Student Representative</em></p>
+          </li>
+        </ul>
+        </div>
+
+        
+        <div class="col-md-4">
+          <div class="display-6">Certificates</div>
+          <ul>
+          <li>
+            <a href="https://www.btkakademi.gov.tr/">
+              BTK ACADEMY
+            </a>
+             +10 Certificate (Web,C#,Kotlin)
+          </li>
+          <li>
+            <a href="https://gelecegiyazanlar.turkcell.com.tr/">
+            TURKCELL
+            </a>
+             +6 Certificate (Web)
+          </li>
+        </ul>
+        </div>
+      </div>
+
+    </div>
+ </div>
