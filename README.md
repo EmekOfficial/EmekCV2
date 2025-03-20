@@ -1,3 +1,3 @@
 - Github Pages php desteklemiyor 17.03.2025
-- 
+- Php include yerine JavaScript fetch() kullanıldı 20.03.2025
 - 
