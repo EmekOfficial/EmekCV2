@@ -1,68 +1,75 @@
 <!-- CREATED BY EMEK -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="img/icon.png" type="image/x-icon">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="img/icon.png" type="image/x-icon" />
     <title>Emek CV</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
   </head>
   <body data-bs-theme="dark">
-
     <!-- Navbar buraya gelecek -->
     <div id="navbar"></div>
 
-   <!-- Contact buraya gelecek -->
-   <div id="contact"></div>
+    <!-- Contact buraya gelecek -->
+    <div id="contact"></div>
 
-   <!-- Exp buraya gelecek -->
-   <div id="exp"></div>
+    <!-- Exp buraya gelecek -->
+    <div id="exp"></div>
 
-   <!-- Projects buraya gelecek -->
-   <div id="projects"></div>
+    <!-- Projects buraya gelecek -->
+    <div id="projects"></div>
 
-   <!-- Footer buraya gelecek -->
-   <div id="footer"></div>
+    <!-- Footer buraya gelecek -->
+    <div id="footer"></div>
 
-  <script>
-    // Navbar'ı al ve sayfaya ekle
-    fetch('partials/navbar.html')
-        .then(response => response.text())  // HTML dosyasını metin olarak al
-        .then(data => {
-            document.getElementById('navbar').innerHTML = data; // HTML olarak ekle
-        });   
-        
-        // contact'ı al ve sayfaya ekle
-    fetch('partials/contact.html')
-        .then(response => response.text())  // HTML dosyasını metin olarak al
-        .then(data => {
-            document.getElementById('contact').innerHTML = data; // HTML olarak ekle
-        }); 
+    <script>
+      // Navbar'ı al ve sayfaya ekle
+      fetch("partials/navbar.html")
+        .then((response) => response.text()) // HTML dosyasını metin olarak al
+        .then((data) => {
+          document.getElementById("navbar").innerHTML = data; // HTML olarak ekle
+        });
 
-        // exp'ı al ve sayfaya ekle
-    fetch('partials/exp.html')
-        .then(response => response.text())  // HTML dosyasını metin olarak al
-        .then(data => {
-            document.getElementById('exp').innerHTML = data; // HTML olarak ekle
-        }); 
+      // contact'ı al ve sayfaya ekle
+      fetch("partials/contact.html")
+        .then((response) => response.text()) // HTML dosyasını metin olarak al
+        .then((data) => {
+          document.getElementById("contact").innerHTML = data; // HTML olarak ekle
+        });
 
-        // projects'ı al ve sayfaya ekle
-    fetch('partials/projects.html')
-        .then(response => response.text())  // HTML dosyasını metin olarak al
-        .then(data => {
-            document.getElementById('projects').innerHTML = data; // HTML olarak ekle
-        }); 
+      // exp'ı al ve sayfaya ekle
+      fetch("partials/exp.html")
+        .then((response) => response.text()) // HTML dosyasını metin olarak al
+        .then((data) => {
+          document.getElementById("exp").innerHTML = data; // HTML olarak ekle
+        });
 
-        // footer'ı al ve sayfaya ekle
-    fetch('partials/footer.html')
-        .then(response => response.text())  // HTML dosyasını metin olarak al
-        .then(data => {
-            document.getElementById('footer').innerHTML = data; // HTML olarak ekle
-        }); 
+      // projects'ı al ve sayfaya ekle
+      fetch("partials/projects.html")
+        .then((response) => response.text()) // HTML dosyasını metin olarak al
+        .then((data) => {
+          document.getElementById("projects").innerHTML = data; // HTML olarak ekle
+        });
 
-</script>
+      // footer'ı al ve sayfaya ekle
+      fetch("partials/footer.html")
+        .then((response) => response.text()) // HTML dosyasını metin olarak al
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data; // HTML olarak ekle
+        });
+    </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
